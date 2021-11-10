@@ -1,0 +1,61 @@
+/*font-size:**px == 字型大小
+  font-family: verdana == 字型樣式
+  text-align: left == 文字靠左
+  line-height: 1.5 == 行距
+  text-indent: 40px == 縮排
+  text-decoration: underline == 底線
+  letter-spacing: *px == 字與字之間的距離 
+*/
+h1{
+    color:brown;
+    font-size: 40px;
+    border-left: 5px solid gray;
+    border-right: 5px solid gray;
+    border-top: 5px solid burlywood;
+    border-bottom: 5px solid burlywood;
+    text-align: center;
+}
+h1:hover{
+    color:darkorange;
+
+}
+.p1{
+    color:darkslateblue;
+    font-size: 20px;
+    font-family: verdana;
+    text-align: left;
+    line-height: 1.5;
+    text-indent: 40px;
+    text-decoration: underline;
+    letter-spacing: 1px;
+}
+p{
+    color:brown;
+    font-size: 20px;
+}
+a{
+    color:darkorange;
+    font-size: 30px;
+}
+a:hover{
+    color:pink;
+    font-size: 40px;
+}
+a:active
+{
+    color:darkred;
+}
+.a1{
+    color:dodgerblue;
+    font-size: 30px;
+}
+.a1:hover{
+    color:lightskyblue;
+    font-size: 40px;
+}
+.a1:active{
+    color:mediumblue;
+}
+ul{
+    color:chocolate;     
+}   
